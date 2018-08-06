@@ -1,0 +1,8 @@
+do.me
+*.exe
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
