@@ -46,6 +46,7 @@ when touched set the list[index] = 1
 judge the list:[index] is 1 or 0
 
 judge the prime:
+``` c++
 bool is_prime(int num){
     if (num == 2 || num == 3){
        return true;
@@ -57,7 +58,10 @@ bool is_prime(int num){
            return false;
     return true;
 }
+```
 
 Enter string with spaces:
+``` c++
 string str;
+```
 getline(cin, str);
