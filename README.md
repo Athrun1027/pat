@@ -63,5 +63,5 @@ bool is_prime(int num){
 Enter string with spaces:
 ``` c++
 string str;
-```
 getline(cin, str);
+```
