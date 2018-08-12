@@ -2,43 +2,21 @@
 Only one month left, hope to catch up
 
 ``` c++
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main(){
-  // 关闭同步后，会导致cin的输入不会缓存，实时输入
-	ios::sync_with_stdio(false);
-	...
-	return 0;
-}
+unordered_map<string, double> mp;
 ```
-
-``` c++
-num & 1
-```
-datermine whether {num} is an odd number
-
-``` c++
-int sum = 999, num;
-string str;
-str = to_string(sum);
-num = stoi(str);
-```
-* string to int
-* int to string
+* kind of map unordered
 
 ``` c++
 double b=0.5;
-int a = int(b);
+cout<<(int)b<<endl;
 ```
 * double to int
 
 ``` c++
-typedef unsigned intu;
+transform(num.begin(), num.end(), num.begin(), ::tolower);
+transform(num.begin(), num.end(), num.begin(), ::toupper);
 ```
-* string's size is unsigned int
-* so there are so many warning.
+* string tolower or toupper
 
 find the same num:
 using list[1000] = {0}
@@ -60,8 +38,7 @@ bool is_prime(int num){
 }
 ```
 
-Enter string with spaces:
+
 ``` c++
-string str;
-getline(cin, str);
+list //链表
 ```
