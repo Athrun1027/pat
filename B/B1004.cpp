@@ -11,7 +11,7 @@ int main(){
     if(coure[i] < coure[min]) min = i;
     if(coure[i] > coure[max]) max = i;
   }
-  cout<<name[max]<<major[max]<<coure[max]<<endl;
-  cout<<name[min]<<major[min]<<coure[min]<<endl;
+  cout<<name[max]<<" "<<major[max]<<endl;
+  cout<<name[min]<<" "<<major[min]<<endl;
   return 0;
 }
