@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 
@@ -22,16 +23,15 @@ int main(){
     scanf("%d %lf", &co, &ex);
     hash[co] += ex;
   }
-  for (int i = 0; i < 1001; ++i){
-    if(hash[i] != 0) {
-      count++;
-    }
-  }
-  printf("%d", count);
+  vector<int> cos;
   for (int i = 1000; i >= 0; --i){
     if(hash[i] != 0) {
-      printf(" %d %.1f", i, hash[i]);
+      cos.push_back(i);
     }
+  }
+  printf("%d", (int)cos.size());
+  for (int i = 0; i < cos.size(); ++i){
+    printf(" %d %.1f", cos[i], hash[cos[i]]);
   }
   printf("\n");
   return 0;
